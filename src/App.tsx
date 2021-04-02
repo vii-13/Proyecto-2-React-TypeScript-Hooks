@@ -3,6 +3,7 @@ import { Usuario } from './components/usuario';
 
 import { TimerPadre } from './components/timerPadre';
 import { ContadorRed } from './components/contadorRed';
+import { Formulario } from './components/formulario';
 
 
 
@@ -22,6 +23,12 @@ function App() {
       <h2>useReducer</h2>
       <hr/>
       <ContadorRed/>
+
+      <h2>customHooks</h2>
+      <hr/>
+      <Formulario/>
+
+      
 
     </>
   );
